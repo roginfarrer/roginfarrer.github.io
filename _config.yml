@@ -1,0 +1,43 @@
+source:        .
+destination:   ./_site
+includes:      ./_includes
+
+markdown:      kramdown
+permalink:     /:title.html
+
+name:          Rogin Farrer
+base_url:      ""
+url:           http://roginfarrer.com
+description:   "Rogin Farrer is a theatrical designer and pixel-pusher based in the Greater Boston area."
+root_desc:     "RoginFarrer.com — Tech, Design, and Theater"
+
+exclude: ['README.markdown', 'config.rb']
+include: ['.htaccess']
+
+gems: [jekyll-assets]
+# This will require each of these gems automatically.
+
+assets:
+js_compressor: uglifier
+css_compressor: sass
+cache: true
+cachebust: hard
+sources:
+- _assets/images/theater/arcadia
+- _assets/images/theater/passion_play
+- _assets/images/theater/god_of_vengeance
+- _assets/images/theater/mousetrap
+- _assets/images/theater/drafting
+
+picture:
+output: "generated"
+markup: "picture"
+presets:
+home-thumb:
+ppi: [1, 1.5, 2]
+attr:
+class: "home-thumb"
+source_medium:
+media: "(min-width: 40em)"
+width: "600"
+height: "300"
