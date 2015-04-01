@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## Oh, hey.
+## Oh, hey!
 
 {% image rogin-avatar.jpg alt="Logo" id="rogin" class="alignright" %}
 

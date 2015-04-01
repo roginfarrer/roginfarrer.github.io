@@ -10,43 +10,47 @@ permalink: /theater/arcadia/
 <div class="flexslider">
 <ul class="slides">
 <li>
-{{ 'theater/arcadia/IMG_2467.JPG' | image }}
+{{ 'theater/arcadia/1.JPG' | image }}
 <div class="flex_caption">photo: Stephen Jones</div>
 </li>
 <li>
-{{ 'theater/arcadia/Arcadia-6.jpg' | image }}
+{{ 'theater/arcadia/2.jpg' | image }}
 <div class="flex_caption">photo: Ben Liu</div>
 </li>
 <li>
-{{ 'theater/arcadia/Arcadia-10.jpg' | image }}
+{{ 'theater/arcadia/3.jpg' | image }}
 <div class="flex_caption">photo: Ben Liu</div>
 </li>
 <li>
-{{ 'theater/arcadia/Arcadia-12.jpg' | image }}
+{{ 'theater/arcadia/4.jpg' | image }}
 <div class="flex_caption">photo: Ben Liu</div>
 </li>
 <li>
-{{ 'theater/arcadia/Arcadia-13.jpg' | image }}
+{{ 'theater/arcadia/5.jpg' | image }}
 <div class="flex_caption">photo: Ben Liu</div>
 </li>
 <li>
-{{ 'theater/arcadia/great.JPG' | image }}
+{{ 'theater/arcadia/6.JPG' | image }}
 <div class="flex_caption">photo: Stephen Jones</div>
 </li>
 <li>
-{{ 'theater/arcadia/Arcadia-18.jpg' | image }}
+{{ 'theater/arcadia/7.jpg' | image }}
 <div class="flex_caption">photo: Ben Liu</div>
 </li>
 <li>
-{{ 'theater/arcadia/Arcadia-19.jpg' | image }}
+{{ 'theater/arcadia/8.jpg' | image }}
 <div class="flex_caption">photo: Ben Liu</div>
 </li>
 <li>
-{{ 'theater/arcadia/Arcadia-20.jpg' | image }}
+{{ 'theater/arcadia/9.jpg' | image }}
 <div class="flex_caption">photo: Ben Liu</div>
 </li>
 <li>
-{{ 'theater/arcadia/Arcadia-23.jpg' | image }}
+{{ 'theater/arcadia/10.jpg' | image }}
+<div class="flex_caption">photo: Ben Liu</div>
+</li>
+<li>
+{{ 'theater/arcadia/11.jpg' | image }}
 <div class="flex_caption">photo: Ben Liu</div>
 </li>
 </ul>
@@ -55,7 +59,7 @@ permalink: /theater/arcadia/
 
 <div class="details">
 <div class="detail_title">Arcadia</div>
-<div class="detail_company">Tom Stoppard<br />
+<div class="detail_company">by Tom Stoppard<br />
 directed by Christopher Grabowski<br />
 Experimental Theater of Vassar College</div>
 <div class="detail_designers">set design: Stephen Jones<br />

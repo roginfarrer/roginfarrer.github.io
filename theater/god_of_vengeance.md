@@ -10,35 +10,35 @@ permalink: /theater/god_of_vengeance/
 	<div class="flexslider">
 		<ul class="slides">
 		<li>
-			{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-7.jpg' | image }}
+			{{ 'theater/god_of_vengeance/0.jpg' | image }}
 			<div class="flex_caption">photo: Ben Liu</div>
 		</li>
-		<li data-thumb="{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-8.jpg' | asset_path }}">
-				{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-8.jpg' | image }}
+		<li>
+				{{ 'theater/god_of_vengeance/1.jpg' | image }}
 				<div class="flex_caption">photo: Ben Liu</div>
 			</li>
-			<li data-thumb="{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-10.jpg' | asset_path }}">
-				{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-10.jpg' | image }}
+			<li>
+				{{ 'theater/god_of_vengeance/2.jpg' | image }}
 				<div class="flex_caption">photo: Ben Liu</div>
 			</li>
-			<li data-thumb="{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-11.jpg' | asset_path }}">
-			{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-11.jpg' | image }}
+			<li>
+			{{ 'theater/god_of_vengeance/3.jpg' | image }}
 				<div class="flex_caption">photo: Ben Liu</div>
 			</li>
-			<li data-thumb="{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-14.jpg' | asset_path }}">
-			{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-14.jpg' | image }}
+			<li>
+			{{ 'theater/god_of_vengeance/4.jpg' | image }}
 				<div class="flex_caption">photo: Ben Liu</div>
 			</li>
-			<li data-thumb="{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-15.jpg' | asset_path }}">
-			{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-15.jpg' | image }}
+			<li>
+			{{ 'theater/god_of_vengeance/5.jpg' | image }}
 				<div class="flex_caption">photo: Ben Liu</div>
 			</li>
-			<li data-thumb="{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-18.jpg' | asset_path }}">
-			{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-18.jpg' | image }}
+			<li>
+			{{ 'theater/god_of_vengeance/6.jpg' | image }}
 			<div class="flex_caption">photo: Ben Liu</div>
 			</li>
 			<li>
-				{{ 'theater/god_of_vengeance/God_of_Vengeance_edit-29.jpg' | image }}
+				{{ 'theater/god_of_vengeance/7.jpg' | image }}
 				<div class="flex_caption">photo: Ben Liu</div>
 			</li>
 		</ul>

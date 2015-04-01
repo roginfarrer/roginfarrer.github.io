@@ -62,6 +62,8 @@ img {
 	height: 12em;
 	@media (min-width: $small_view) {
 		height: 15em;
+		width: 85%;
+		margin: 0 auto;
 	}
 }
 
