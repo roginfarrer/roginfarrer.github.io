@@ -10,7 +10,7 @@ permalink: /about/
 
 I'm Rogin Farrer and I'm a theatrical designer and pixel-pusher based in the Greater Boston area. I was born and raised just west of Boston.
 
-<p>I drink my coffee black, constantly listen to podcasts and <a id="soundcloud" href="https://soundcloud.com/rogin-farrer">new</a> <a id="spotify" href="https://open.spotify.com/user/1212116974">music</a>, and believe great design is nothing without solid communication and collaboration. I&rsquo;m a big fan of art, literature, and philosophy, and appreciate the ways they intertwine with performance.</p>
+<p>I drink my coffee black, constantly listen to podcasts and <a id="soundcloud" href="https://soundcloud.com/rogin-farrer">new</a> <a id="spotify" href="https://open.spotify.com/user/1212116974">music</a>, and believe great collaboration is integral to great design. I&rsquo;m a big fan of art, literature, and philosophy, and appreciate the ways they intertwine with performance.</p>
 
 This spring I will graduate from Vassar College with a B.A. in Drama. I will begin working for the [Gloucester Stage Company](http://gloucesterstage.com) this summer as their inaugural Scenic Design/Carpentry Apprentice.
 

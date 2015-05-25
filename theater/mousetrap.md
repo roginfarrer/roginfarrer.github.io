@@ -40,7 +40,7 @@ directed by Michael Kaluzny and Jenna Constantine<br />
 The Philaletheis Society</div>
 <div class="detail_designers">set design: Rogin Farrer<br />
 light design: Zach Struver<br />
-costume design: Vex Batchelder</div>
+costume design: Vex Batchelder and Ilana Rosen-Ducat</div>
 </div>
 
 </div>

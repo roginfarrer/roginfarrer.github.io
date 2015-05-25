@@ -4,7 +4,7 @@ title: Vassar Seniors
 permalink: /vassar/
 ---
 
-## Hey, Vassar!
+## Hey, Vassar.
 
 **Need an online portfolio? A professional home base to represent you on the web that's *not* Facebook?**
 
