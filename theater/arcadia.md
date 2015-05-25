@@ -34,8 +34,16 @@ permalink: /theater/arcadia/
 <div class="flex_caption">photo: Stephen Jones</div>
 </li>
 <li>
+{{ 'theater/arcadia/6b.JPG' | image }}
+<div class="flex_caption">photo: Stephen Jones</div>
+</li>
+<li>
 {{ 'theater/arcadia/7.jpg' | image }}
 <div class="flex_caption">photo: Ben Liu</div>
+</li>
+<li>
+{{ 'theater/arcadia/7b.JPG' | image }}
+<div class="flex_caption">photo: Stephen Jones</div>
 </li>
 <li>
 {{ 'theater/arcadia/8.jpg' | image }}
@@ -46,11 +54,11 @@ permalink: /theater/arcadia/
 <div class="flex_caption">photo: Ben Liu</div>
 </li>
 <li>
-{{ 'theater/arcadia/10.jpg' | image }}
-<div class="flex_caption">photo: Ben Liu</div>
+{{ 'theater/arcadia/9b.JPG' | image }}
+<div class="flex_caption">photo: Stephen Jones</div>
 </li>
 <li>
-{{ 'theater/arcadia/11.jpg' | image }}
+{{ 'theater/arcadia/10.jpg' | image }}
 <div class="flex_caption">photo: Ben Liu</div>
 </li>
 </ul>

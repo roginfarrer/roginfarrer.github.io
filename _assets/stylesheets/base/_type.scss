@@ -115,6 +115,16 @@ ol {
 }
 
 li {
+	font-weight: 500;
 	line-height: $verticalRhythm;
-	margin-left: 2.5em;
+	margin-left: 1em;
+}
+
+code {
+	border: 1px solid #dedede;
+	background-color: #efefef;
+	font-family: $fontCode;
+	font-size: $fs5;
+	padding: 0.25em;
+	@include border-radius(5px);
 }
