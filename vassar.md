@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vassar Seniors
+title: Vassar
 permalink: /vassar/
 ---
 
@@ -22,4 +22,4 @@ What you'll get from a custom built site by me:
 4. A mobile responsive design, so your site is as clear and clean on your desktop as it is on your phone. (If you're reading this on a desktop computer, resize your window to see what I mean.)
 5. Affordable plans for future changes and requests to your site!
 
-If you're interested or curious about my rates, shoot me a message! Let me know what you need and we'll come up with a practical and affordable way to make it work. 
+If you're interested or curious about my rates, [shoot me a message](mailto:rogin@roginfarrer.com)! Let me know what you need and we'll come up with a practical and affordable way to make it work. 
