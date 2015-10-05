@@ -1,0 +1,79 @@
+.folio > .column {
+	margin-bottom: ($verticalRhythm * 1.5) + em;
+}
+
+.folio, .web-tab {
+	display: block;
+	margin-top: $verticalRhythm + em;
+}
+
+.web-tab {
+	border: 7px solid #bababa; 
+	@media (max-width: $small-view) {
+		padding-bottom: 2.5em;
+	}
+}
+
+.web-tab-title {
+	font-size: $fs3;
+	font-weight: bold;
+	margin-bottom: $verticalRhythm / 2 + em;
+}
+
+.web-tab-text > * {
+	margin-left: 1rem;
+	@media (max-width: $small-view) {
+		margin-left: 0;
+		text-align: center; 
+	}
+}
+
+h2.portfolio_title {
+	display: block;
+	font-size: 2.5em;
+	margin: ($verticalRhythm / 2) + em auto 0;
+	text-align: center;
+}
+
+.thumb_link, .thumb_link_hero {
+	opacity: 1;
+	@include transition(opacity 200ms ease-out);
+	&:hover {
+		opacity: 0.9;
+		@include transition(opacity 200ms ease-out);
+	}
+}
+
+.thumb_img, .thumb_img_hero {
+	border: 7px solid #bababa;
+}
+
+.thumb_link div {
+	height: 12em;
+}
+
+.thumb_link_hero div {
+	height: 12em;
+	@media (min-width: $small_view) {
+		height: 15em;
+		width: 85%;
+		margin: 0 auto;
+	}
+}
+
+.tab-link {
+	@media (min-width: $small-view) {
+		margin-left: -2.05%;
+	}
+}
+
+.tab-image {
+	margin-bottom: 0;
+}
+
+.comingSoon {
+	display: none;
+	color: $black;
+	font-weight: 400;
+	margin-left: 5px;
+}

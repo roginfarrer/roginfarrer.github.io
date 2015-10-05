@@ -1,5 +1,6 @@
 ---
 layout: default
+description: Rogin Farrer is a theatrical and web designer in Boston, MA.
 ---
 <!-- 
 <div id="hi">
@@ -10,9 +11,16 @@ layout: default
 <h2 class="clearfix portfolio_title">Theatrical Design</h2>
 
 <div class="folio grid_container clearfix">
-	<div class="column full">
-		<a href="theater/god_of_vengeance" class="thumb_link_hero block">
-			<div class="background_cover thumb_img_hero" style="background-image: url('{% asset_path theater/god_of_vengeance/5.jpg %}');"></div>
+	<div class="column half">
+		<a href="theater/moth" class="thumb_link block">
+			<div class="background_cover thumb_img" style="background-image: url('{% asset_path theater/moth/10.jpg %}');"></div>
+			<h4>Moth</h4>
+			<h5>Gloucester Stage Company, Summer 2015</h5>
+		</a>
+	</div>
+	<div class="column half">
+		<a href="theater/god_of_vengeance" class="thumb_link block">
+			<div class="background_cover thumb_img" style="background-image: url('{% asset_path theater/god_of_vengeance/5.jpg %}');"></div>
 			<h4>God of Vengeance</h4>
 			<h5>Experimental Theater of Vassar College, Spring 2015</h5>
 		</a>
@@ -55,4 +63,47 @@ layout: default
 
 <h2 class="block clearfix portfolio_title">Web Design</h2></a>
 
-<p style="text-align:center;">Examples coming soon.</p>
+<div class="grid_container clearfix web-tab">
+		<div class="column half">
+			<a href="/web/mobile-design" class="thumb_link block tab-link">
+				<div class="background_cover tab-image" style="background-image: url('{% asset_path theater/moth/10.jpg %}');"></div>
+			</a>
+		</div>
+		<div class="column half web-tab-text">
+			<h3 class="web-tab-title">Mobile-responsive Design</h3>
+			<p>Optimize your site for mobile devices.</p>
+			<div class="btn buffer-top"><a>View details</a><span class="comingSoon"><em>Coming soon!</em></span></div>
+	</div>
+</div>
+
+<div class="grid_container clearfix web-tab">
+	<div class="column half">
+		<a href="/web/portfolios/" class="thumb_link block tab-link">
+			<div class="background_cover tab-image" style="background-image: url('{% asset_path theater/moth/10.jpg %}');"></div>
+		</a>
+	</div>
+	<div class="column half web-tab-text">
+		<h3 class="web-tab-title">Professional Portfolios</h3>
+		<p>Clean, simple, and effective portfolios for artists and professionals.</p>
+		<div class="btn buffer-top"><a>View details</a><span class="comingSoon"><em>Coming soon!</em></span></div>
+	</div>
+</div>
+
+<div class="grid_container clearfix web-tab">
+	<div class="column half">
+		<a href="/web/blog-templates/" class="thumb_link block tab-link">
+			<div class="background_cover tab-image" style="background-image: url('{% asset_path theater/moth/10.jpg %}');"></div>
+		</a>
+	</div>
+	<div class="column half web-tab-text">
+		<h3 class="web-tab-title">Blog Templates</h3>
+		<p>Wordpress and Jekyll themes with an emphasis on typography.</p>
+		<div class="btn buffer-top"><a>View details</a><span class="comingSoon"><em>Coming soon!</em></span></div>
+	</div>
+</div>
+
+<script>
+	$(".btn").click(function(){
+		$(".comingSoon").fadeIn();
+	});
+</script>

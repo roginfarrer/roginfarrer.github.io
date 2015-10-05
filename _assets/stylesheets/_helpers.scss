@@ -41,9 +41,21 @@
 	display: block;
 }
 
+.inline-block {
+	display: inline-block;
+}
+
 .center-block {
 	display: block;
 	margin: 0 auto;
+}
+
+.buffer-top {
+	margin-top: $verticalRhythm + em;
+}
+
+.buffer-bottom {
+	margin-bottom: $verticalRhythm + em;
 }
 
 // Typography

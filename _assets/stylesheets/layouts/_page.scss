@@ -11,3 +11,16 @@ a#soundcloud, a#soundcloud:visited {
 		color: #FF7733;
 	}
 }
+
+#subline {
+	text-align: center;
+	display: block;
+	font-weight: normal;
+	margin-bottom: $verticalRhythm * 2 + em;
+	@media (max-width: 50rem) {
+		font-size: $fs3;
+	}
+}
+
+
+

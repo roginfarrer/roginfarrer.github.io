@@ -41,35 +41,10 @@ img {
 	background-position: center center;
 }
 
-.thumb_link, .thumb_link_hero {
-	opacity: 1;
-	@include transition(opacity 200ms ease-out);
-	&:hover {
-		opacity: 0.9;
-		@include transition(opacity 200ms ease-out);
-	}
-}
-
-.thumb_img, .thumb_img_hero {
-	border: 7px solid #bababa;
-}
-
-.thumb_link div {
-	height: 12em;
-}
-
-.thumb_link_hero div {
-	height: 12em;
-	@media (min-width: $small_view) {
-		height: 15em;
-		width: 85%;
-		margin: 0 auto;
-	}
-}
-
-
-
 #rogin {
 	@include border-radius(25px);
-	border: 7px solid #bababa;
+	border: 4px solid #bababa;
+	@media (min-width: $small-view) {
+		float: right;
+	}
 }

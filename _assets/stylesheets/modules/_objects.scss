@@ -1,3 +1,15 @@
 #resume {
 	border: 7px solid #bababa;
 }
+
+.btn a, .btn-send {
+	@include border-radius(50px);
+	background-color: $red;
+	border: none;
+	padding: 0.5em 0.75em;
+	color: $bg;
+	font-weight: 600;
+	&:hover {
+		background: rgba($red, 0.85);
+	}
+}
