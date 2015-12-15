@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Rogin Farrer">
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@RoginFarrer" />
+	<meta name="twitter:creator" content="@RoginFarrer" />
+	<meta property="og:url" content="http://roginfarrer.com/about/" />
+	<meta property="og:title" content="About" />
+	<meta property="og:description" content="Rogin Farrer is a theatrical designer and pixel-pusher based in the Greater Boston area." />
+  <title>Rogin Farrer | About</title>
+  <meta name="description" content="Rogin Farrer is a theatrical designer and pixel-pusher based in the Greater Boston area.">
+
+	<link rel="stylesheet" href="/assets/style-280c9563cb755a808a26a301e0c643fc.css">
+  <link rel="canonical" href="http://roginfarrer.com/about/">
+  
+	<script src="//use.typekit.net/hnz6jnk.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	<meta name="google-site-verification" content="xhPcC2Wa_vioL4f_NqKSYqPAru2wO8Xm3fviJZenPxM" />
+	<script>
+		// Picture element HTML5 shiv
+		document.createElement( "picture" );
+	</script>
+	<script src="/assets/picturefill.min-44b2ffaffcd6a84ead4c0153036c98a2.js" async></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="/assets/jquery.flexslider-6a1412461204d2298dbf1c74575572b8.js"></script>
+	
+	<!-- Place in the <head>, after the three links -->
+	<script type="text/javascript" charset="utf-8">
+		// Can also be used with $(document).ready()
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				slideshowSpeed: 7000,  		
+				slideshow: true,				 				
+				animation: 'fade',
+				animationLoop: true,
+				controlNav: true,             
+				directionNav: true,
+				pauseOnAction: false,            
+				pauseOnHover: true,            
+				useCSS: true,                   
+				touch: true,                  
+				video: false
+			});
+		});
+	</script>
+</head>
+
+  <body>
+    <div class="container">
+
+    
+		<header class="clearfix">
+			<h1><a href="/" title="About">Rogin Farrer</a></h1>
+			<nav class="nav">
+				<ul>
+					<li><a href="/about"><span class="nav-text"> About</span></a></li>
+					<li><a href="/"><span class="nav-text"> Portfolio</span></a></li>
+					<li><a href="/resume"><span class="nav-text"> Resume</span></a></li>
+				</ul>
+			</nav>
+	</header>
+
+            <div id="about-header">
+	<img src="/assets/rogin-avatar-d3f4248efb4a5bb14e8c1273cdb961ad.jpg" alt="Logo" id="rogin" class="alignright" />
+	
+	<h2 id="subline"><em><strong>Rogin Farrer</strong> is a theater-maker and pixel-pusher. He loves to tell stories, whether by designing for the stage or for the web. He also builds stuff with wood.</em></h2>
+</div>
+
+<h2 class="t-center clearfix center-block">Welcome</h2>
+
+<p>Enough of the 3rd person. Hi there! My name is Rogin and I’m a theater-maker and pixel-pusher based in the Greater Boston area. I was born and raised just west of Boston.</p>
+
+<p>My focus as a theater-maker is in lighting and scenic design and carpentry. I currently work for the <a href="http://gloucesterstage.com">Gloucester Stage Company</a> as their inaugural Scenic Design/Carpentry Apprentice.</p>
+
+<p>I also design and develop websites. I especially love to create personal portfolios and blogs. I have a soft spot for typography and mobile-responsive design. I’m currently looking for clients. See my contact info below.</p>
+
+<p>This site was built with <a href="http://jekyllrb.com/" title="Jekyll">Jekyll</a>, <a href="http://github.com/" title="Github">GitHub</a>, <a href="http://brackets.io/" title="Brackets Text Editor">Brackets.io</a>, Terminal, <a href="http://sass-lang.com/" title="Sass">Sass</a>, <a href="http://compass-style.org/" title="Compass">Compass</a>, and <a href="http://typekit.com/" title="Adobe Typekit">Typekit</a>.</p>
+
+<p><br /></p>
+
+<div id="form-messages"></div>
+<p class="t-center"><strong>Get in touch via the form below!</strong></p>
+<form id="contact-form" name="form">
+<div>
+<label>Name</label>
+<input placeholder="Name (required)" name="name" type="text" tabindex="1" required="" />
+</div>
+<div>
+<label>Email</label>
+<input placeholder="E-mail (required)" name="_replyto" type="email" tabindex="2" required="" />
+</div>
+<div>
+<label>Telephone</label>
+<input placeholder="Tel #" type="tel" name="telephone #" tabindex="3" />
+</div>
+<div>
+<label>Message</label>
+<textarea placeholder="Hi, Rogin..." type="text" name="message" tabindex="4" rows="5" required=""></textarea>
+</div>
+<input type="hidden" name="_subject" value="New RoginFarrer.com submission" />
+
+<input type="text" name="_gotcha" style="display:none" />
+<div>
+<button type="submit" id="contact-submit" class="btn-send"><i class="fa fa-envelope"></i> Send Email</button>
+</div>
+</form>
+
+<!-- Hidden message to show if contact is successful. -->
+<div id="submit-success" class="collapse">
+<h3 style="text-align:center;">Message received! I'll be in touch.</h3>
+</div>
+
+<!-- Hidden message to show if user encounters errors. -->
+<div id="submit-errors" class="collapse">
+It looks like there was an error submitting the form.
+Please try again later.
+</div>
+
+<p><br /></p>
+
+<script>
+$("#contact-form").validate({
+submitHandler: function(form) {
+$.ajax({
+url: "//formspree.io/rogin@roginfarrer.com", 
+method: "POST",
+data: {
+name: $(form).find("input[name='name']").val(),
+_replyto: $(form).find("input[name='_replyto']").val(),
+message: $(form).find("textarea[name='message']").val()
+},
+dataType: "json",
+success: function() {
+$("#submit-success").fadeIn();
+$("#contact-form").fadeOut();
+},
+error: function() {
+$("#submit-errors").fadeIn();        
+}
+});
+}
+});
+</script>
+
+
+
+
+    <footer class="clearfix block">
+	<h6>&#169; 2015 Rogin Farrer. All rights reserved.</h6>
+</footer>
+
+<!-- Javascripts -->
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+<script src="/assets/smoothscroll-292a1e6c67f7be0ae2291115d0a26256.js"></script>
+<script src="/assets/googleanalytics-a7e6b1befe24ec76d3d5056ca61a4130.js"></script>
+		</div> <!-- /end .container --> 
+  </body>
+
+</html>
